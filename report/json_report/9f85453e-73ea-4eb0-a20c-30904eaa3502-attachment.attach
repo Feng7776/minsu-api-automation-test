@@ -1,0 +1,1 @@
+{'method': 'get', 'url': 'http://127.0.0.1:8080/api/admin/room/type/page', 'headers': {'Authorization': ''}, 'params': {'pageNum': 1, 'pageSize': 10}, 'data': None, 'json': None, 'files': None}
