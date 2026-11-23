@@ -1,4 +1,0 @@
-INFO     root:test_runner.py:31 0.用例ID:9 模块:客房 场景:查询失败 标题:分页查询失败-无效token
-INFO     root:analyse_case.py:26 1.解析请求数据，请求数据为：{'method': 'get', 'url': 'http://127.0.0.1:8080/api/admin/room/room/page', 'headers': {'Authorization': 'Bearer abc123'}, 'params': {'pageNum': 1, 'pageSize': 10}, 'data': None, 'json': None, 'files': None}
-INFO     root:send_request.py:12 2.发送HTTP请求，响应文本为：{"code":401,"msg":"登录状态无效，请重新登录","data":null}
-INFO     root:asserts.py:12 3.HTTP响应断言内容：实际结果(401) == 预期结果(401)

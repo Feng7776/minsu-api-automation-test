@@ -1,4 +1,0 @@
-INFO     root:test_runner.py:31 0.用例ID:3 模块:登录 场景:登录失败 标题:管理员登录失败-用户不存在
-INFO     root:analyse_case.py:26 1.解析请求数据，请求数据为：{'method': 'post', 'url': 'http://127.0.0.1:8080/api/auth/login', 'headers': None, 'params': None, 'data': None, 'json': {'username': 'admin1', 'password': 'admin123'}, 'files': None}
-INFO     root:send_request.py:12 2.发送HTTP请求，响应文本为：{"code":1002,"msg":"账号不存在","data":null}
-INFO     root:asserts.py:12 3.HTTP响应断言内容：实际结果(1002) == 预期结果(1002)
